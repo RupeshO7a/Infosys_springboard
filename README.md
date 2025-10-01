@@ -1,7 +1,10 @@
 # ImpactSense - Earthquake Impact Prediction
 
-## Project Statement
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/streamlit-installed-orange)](https://streamlit.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+## Project Statement
 The objective of this project is to build a machine learning-based predictive model that estimates the impact of earthquakes in terms of magnitude, damage level, or risk zone classification. The system will utilize geophysical and environmental data like latitude, longitude, depth, seismic wave features, and geological parameters to assess the possible damage or categorize the earthquake severity. This can help in early disaster planning, emergency response, and awareness campaigns.
 
 ---
@@ -23,7 +26,6 @@ The objective of this project is to build a machine learning-based predictive mo
 ---
 
 ## Outcomes
-
 By the end of the project, students will:
 
 - Understand seismic data and its role in predicting earthquake impacts.
@@ -35,13 +37,12 @@ By the end of the project, students will:
 ---
 
 ## Dataset
-
 - **Source**: Kaggle  
 
 ---
 
 ## System Architecture
-![System Architecture]("pictures\system_architecture.png")
+![System Architecture](pictures/system_architecture.png)
 
 ---
 
@@ -147,11 +148,32 @@ By the end of the project, students will:
 
 ---
 
-## 🔧 Installation
+## ▶️ Usage
 
-Clone this repository and install dependencies:
-
+### Preprocess Data
 ```bash
-git clone https://github.com/RupeshO7a/Infosys_springboard.git
-cd Infosys_springboard
-pip install -r requirements.txt
+python src/data_preprocessing.py
+```
+### Train Model
+```bash
+python src/train_model.py
+```
+### Evaluate Model
+```bash
+python src/evaluate.py
+```
+### Run UI (Optional - Streamlit)
+```bash
+streamlit run app.py
+```
+---
+## 🤝Contributing
+
+### Contributions are welcome! To contribute:
+```bash
+1.Fork the repository
+2.Create a new branch (feature/your-feature)
+3.Commit your changes
+4.Push the branch and open a Pull Request
+```
+
