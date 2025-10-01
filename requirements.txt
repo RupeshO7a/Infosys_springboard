@@ -1,0 +1,24 @@
+# Core Libraries
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Advanced ML Models
+xgboost
+lightgbm
+
+# Model Explainability
+shap
+
+# Web UI (optional)
+streamlit
+fastapi
+uvicorn
+
+# Jupyter (for notebooks)
+notebook
+jupyter
