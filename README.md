@@ -41,7 +41,7 @@ By the end of the project, students will:
 ---
 
 ## System Architecture
-![System Architecture]("C:\Users\rupes\Downloads\system_architecture.png")
+![System Architecture]("images\system_architecture.png")
 
 ---
 
